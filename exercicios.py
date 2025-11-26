@@ -117,5 +117,54 @@
 # seguida, exiba em tela uma mensagem de boas-vindas que incorpora o nome 
 # anteriormente digitado, fazendo uso de f'string.
 
+# name = str(input("informe o seu nome: ")).strip()
 
-    
+# print(f"Bem vindo(a), {name}! ")
+
+#38-  peça para que o usuario digite um numero, 
+# diretamente dentro da função print() eleve esse numero ao quadrado, 
+# exibindo o resultado incorporado a uma mensagem
+
+# numero = int(input("digite um numero: "))
+
+# print(f"o numero {numero} ao quadrado fica: {numero * 2}")
+
+#39- data a seguinte lista: nomes = ['Ana', 'Carlos', 'Daiane', 'Fernando', 'Maria']
+# substitua o terceiro elemento da lista por 'jamile'
+
+# nomes = ['Ana', 'Carlos', 'Daiane', 'Fernando', 'Maria']
+
+# indice = nomes.index('Daiane')
+# nomes[indice] = 'jamile'
+# for i in nomes:
+#     print(i)
+
+#40- adicione o elemento 'paulo' na lista de nomes
+
+
+#dessa forma tambem funciona.
+# newArray = [
+#     *nomes,
+#     "Paulo"
+# ]
+
+# nomes.append("joao")
+
+# for i in nomes:
+#     print(i)
+
+
+#41- adiciona o elemento 'Eliana' na lista de nomes, especificamente
+# na terceira posição da lista.
+# nomes = ['Ana', 'Carlos', 'Daiane', 'Fernando', 'Maria']
+
+# index = nomes.index('Daiane')
+# nomes.insert(index, "Eliana")
+
+# print(nomes)
+
+#42- remova o elemento 'Carlos' da lista
+# nomes = ['Ana', 'Carlos', 'Daiane', 'Fernando', 'Maria']
+# nomes.remove("Carlos")
+
+# print(nomes)
